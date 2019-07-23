@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Decrease quantity - cart page</name>
+   <tag></tag>
+   <comment>a=&quot; + a
+a1=&quot; + a1
+b=&quot; + b
+b1=&quot; + b1</comment>
+   <testCaseGuid>8852549e-9c8f-4ad5-b4f3-410db12f5661</testCaseGuid>
+</TestCaseEntity>

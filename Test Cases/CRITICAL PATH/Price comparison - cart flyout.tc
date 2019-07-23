@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Price comparison - cart flyout</name>
+   <tag></tag>
+   <comment>x=&quot; + x
+a=&quot; + a
+a1=&quot; + a1
+y=&quot; + y
+b=&quot; + b
+b1=&quot; + b1
+total=&quot; + total
+c=&quot; + c
+c1=&quot; + c1</comment>
+   <testCaseGuid>2302e208-37b5-44db-96ea-e017416dedae</testCaseGuid>
+</TestCaseEntity>
