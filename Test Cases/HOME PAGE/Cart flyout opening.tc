@@ -3,6 +3,7 @@
    <description></description>
    <name>Cart flyout opening</name>
    <tag></tag>
-   <comment></comment>
+   <comment>flag=&quot; + flag
+flag1=&quot; + flag1</comment>
    <testCaseGuid>a6038de8-713a-4d31-84db-37c5cb9c7404</testCaseGuid>
 </TestCaseEntity>

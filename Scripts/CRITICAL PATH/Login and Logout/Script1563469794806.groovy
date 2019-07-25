@@ -17,6 +17,10 @@ WebUI.callTestCase(findTestCase('CALL-URL'), [:], FailureHandling.STOP_ON_FAILUR
 
 WebUI.delay(2)
 
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Burger menu'))
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('CR-DESKTOP/Home page/Login/Account icon'))
 
 WebUI.delay(2)
@@ -71,6 +75,8 @@ WebUI.click(findTestObject('CR-DESKTOP/Home page/Login/a_Return to Account Detai
 WebUI.delay(2)
 
 WebUI.click(findTestObject('CR-DESKTOP/Home page/Login/a_Wishlist'))
+
+WebUI.delay(3)
 
 WebUI.back()
 

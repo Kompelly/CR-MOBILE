@@ -17,7 +17,11 @@ WebUI.callTestCase(findTestCase('CALL-URL'), [:], FailureHandling.STOP_ON_FAILUR
 
 WebUI.delay(2)
 
-WebUI.mouseOver(findTestObject('CR-DESKTOP/Mega menu/SHOES'))
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Burger menu'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('CR-DESKTOP/Mega menu/SHOES'))
 
 WebUI.delay(2)
 
@@ -41,15 +45,29 @@ WebUI.click(findTestObject('CR-DESKTOP/product page/Add to bag'))
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('CR-DESKTOP/Cart flyout/Input update - cart flyout'), '8')
+WebUI.setText(findTestObject('CR-DESKTOP/Cart page/input_Quantity_updates - Copy'), '8')
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('CR-DESKTOP/Cart flyout/cart collpase'))
+WebUI.click(findTestObject('CR-DESKTOP/Cart page/td_Quantity - Copy'))
 
 WebUI.delay(2)
 
-WebUI.mouseOver(findTestObject('CR-DESKTOP/Mega menu/a_Jeans'))
+WebUI.refresh(FailureHandling.STOP_ON_FAILURE)
+
+WebUI.navigateToUrl('https://charlotterusse.com/')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Burger menu'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('CR-DESKTOP/Mega menu/a_Jeans'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('CR-DESKTOP/Mega menu/By Bit'))
 
 WebUI.delay(2)
 

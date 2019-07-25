@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@class='utilities__link site-header__desktop-cart js-cart-open']</value>
+         <value>//a[@class='top-nav__link--last site-header__mobile-cart large-up--hide js-cart-open']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -21,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>svg</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[@class='utilities__link site-header__desktop-cart js-cart-open']</value>
+      <value>//a[@class='top-nav__link--last site-header__mobile-cart large-up--hide js-cart-open']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
