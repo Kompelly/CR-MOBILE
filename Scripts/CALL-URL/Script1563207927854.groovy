@@ -17,9 +17,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://charlotterusse.com/')
 
+WebUI.setViewPortSize(360, 800)
+
 WebUI.click(findTestObject('CR-DESKTOP/Window pop up/language- english'))
 
 WebUI.click(findTestObject('CR-DESKTOP/Window pop up/Pop up - close'))
-
-WebUI.maximizeWindow()
 

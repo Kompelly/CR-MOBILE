@@ -6,12 +6,12 @@
    <elementGuidId>a2da24ac-e2b7-48a9-900b-6e2971efcabb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@name='button']</value>
+         <key>BASIC</key>
+         <value>//span[@class='step__footer__previous-link-content']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//a[contains(text(),'Cart')]</value>
+         <key>XPATH</key>
+         <value>//button[@name='button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,7 +75,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Cart')]</value>
+      <value>//span[@class='step__footer__previous-link-content']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

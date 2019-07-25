@@ -6,12 +6,12 @@
    <elementGuidId>3abb330c-01ba-4d33-a449-b4bc009c7f07</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='grid__element--1558545871575']/a/div/img</value>
+         <key>BASIC</key>
+         <value>//div[@id='grid__element--1558545871575']//img[@class='grid__image medium-up--hide']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//div[@id='grid__element--1558545871575']//img[contains(@class,'small--hide')]</value>
+         <key>XPATH</key>
+         <value>//div[@id='grid__element--1558545871575']/a/div/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@id='grid__element--1558545871575']//img[contains(@class,'small--hide')]</value>
+      <value>//div[@id='grid__element--1558545871575']//img[@class='grid__image medium-up--hide']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

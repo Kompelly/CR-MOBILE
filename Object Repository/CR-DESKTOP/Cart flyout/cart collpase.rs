@@ -6,12 +6,12 @@
    <elementGuidId>b421f08a-ad23-464f-9149-243538fa1d89</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//body[@id='refuge-plus-size-high-rise-distressed-dark-wash-skinny-boyfriend-jean']/div[4]</value>
+         <key>BASIC</key>
+         <value>//div[@class='cart__backdrop js-cart-close']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//div[contains(@class,'cart__backdrop js-cart-close')]</value>
+         <key>XPATH</key>
+         <value>//body[@id='refuge-plus-size-high-rise-distressed-dark-wash-skinny-boyfriend-jean']/div[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[contains(@class,'cart__backdrop js-cart-close')]</value>
+      <value>//div[@class='cart__backdrop js-cart-close']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

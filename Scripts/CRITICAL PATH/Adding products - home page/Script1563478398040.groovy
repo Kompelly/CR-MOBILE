@@ -37,9 +37,11 @@ WebUI.click(findTestObject('CR-DESKTOP/product page/Add to bag'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('CR-DESKTOP/Cart flyout/cart collpase'))
+WebUI.refresh(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
+
+WebUI.back()
 
 WebUI.click(findTestObject('CR-DESKTOP/Home page/Add prod - home page/Charlotte russe icon'))
 
@@ -61,9 +63,11 @@ WebUI.click(findTestObject('CR-DESKTOP/product page/Add to bag'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('CR-DESKTOP/Cart flyout/cart collpase'))
+WebUI.refresh(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
+
+WebUI.back()
 
 WebUI.click(findTestObject('CR-DESKTOP/Home page/Add prod - home page/Charlotte russe icon'))
 
@@ -77,7 +81,7 @@ WebUI.click(findTestObject('CR-DESKTOP/Home page/Add prod - home page/3 rd produ
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('CR-DESKTOP/Home page/Add prod - home page/Neon orange varaint'))
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Add prod - home page/Black variant'))
 
 WebUI.delay(2)
 

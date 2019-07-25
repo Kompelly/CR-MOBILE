@@ -17,7 +17,11 @@ WebUI.callTestCase(findTestCase('CALL-URL'), [:], FailureHandling.STOP_ON_FAILUR
 
 WebUI.delay(2)
 
-WebUI.mouseOver(findTestObject('CR-DESKTOP/Mega menu/SHOES'))
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Burger menu'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('CR-DESKTOP/Mega menu/SHOES'))
 
 WebUI.delay(2)
 
@@ -61,6 +65,8 @@ WebUI.click(findTestObject('CR-DESKTOP/Cart flyout/Checkout'))
 
 WebUI.delay(3)
 
+WebUI.scrollToElement(findTestObject('CR-DESKTOP/Customer info page/cart page link'), 0)
+
 WebUI.click(findTestObject('CR-DESKTOP/Customer info page/cart page link'))
 
 WebUI.delay(2)
@@ -77,7 +83,7 @@ WebUI.comment('a1=' + a1)
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('CR-DESKTOP/Cart page/input update qunatity'), '4')
+WebUI.setText(findTestObject('CR-DESKTOP/Cart page/input_Quantity_updates'), '3')
 
 WebUI.delay(2)
 
@@ -85,7 +91,7 @@ WebUI.click(findTestObject('CR-DESKTOP/Cart page/td_Quantity'))
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('CR-DESKTOP/Cart page/input update qunatity'), '2')
+WebUI.setText(findTestObject('CR-DESKTOP/Cart page/input_Quantity_updates'), '2')
 
 WebUI.delay(2)
 
@@ -97,7 +103,7 @@ WebUI.click(findTestObject('CR-DESKTOP/Cart page/Update cart'))
 
 WebUI.delay(2)
 
-String b = WebUI.getText(findTestObject('CR-DESKTOP/Cart page/Get price - subtotal - cart page'))
+String b = WebUI.getText(findTestObject('CR-DESKTOP/Cart page/Get price - subtotal- cart page'))
 
 WebUI.delay(2)
 

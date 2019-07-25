@@ -6,12 +6,12 @@
    <elementGuidId>a80dd6e2-5219-455c-96ba-2d20f5070e48</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='updates_28500176863316:c35c5e5c5975ace4e51b85bcbaee8a6b']</value>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;updates_28728757747796:be2917b1445c6eb160b7acdca6500873&quot;][count(. | //input[@value = '1']) = count(//input[@value = '1'])]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//input[@id='updates_28500176830548:d1ba1b5264cec48b037e897414888e3e']</value>
+         <key>XPATH</key>
+         <value>//input[@id='updates_28500176863316:c35c5e5c5975ace4e51b85bcbaee8a6b']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -45,7 +45,7 @@
       <value>updates_28500176863316:c35c5e5c5975ace4e51b85bcbaee8a6b</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
@@ -70,7 +70,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@id='updates_28500176830548:d1ba1b5264cec48b037e897414888e3e']</value>
+      <value>//*[@id=&quot;updates_28728757747796:be2917b1445c6eb160b7acdca6500873&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

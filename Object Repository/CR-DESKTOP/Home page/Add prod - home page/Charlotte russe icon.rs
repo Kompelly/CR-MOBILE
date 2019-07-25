@@ -6,12 +6,12 @@
    <elementGuidId>491d505e-cc4d-41b5-aca0-0ff92441339a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='shopify-section-header']/div/header/div/div/nav/div/div/a/img</value>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/div[3]/div[2]/div[1]/header[1]/div[1]/div[1]/nav[1]/ul[1]/li[1]/a[1]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//div[contains(@class,'sticky-logo')]//img[contains(@class,'header-logo')]</value>
+         <key>XPATH</key>
+         <value>//div[@id='shopify-section-header']/div/header/div/div/nav/div/div/a/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>img</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[contains(@class,'sticky-logo')]//img[contains(@class,'header-logo')]</value>
+      <value>/html[1]/body[1]/div[3]/div[2]/div[1]/header[1]/div[1]/div[1]/nav[1]/ul[1]/li[1]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

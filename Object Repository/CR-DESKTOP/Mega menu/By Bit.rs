@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>SHOES</name>
+   <name>By Bit</name>
    <tag></tag>
-   <elementGuidId>f490b058-80cc-423d-b9f0-3a5445ebee8e</elementGuidId>
+   <elementGuidId>2d4fd20f-3fc0-46f7-a806-9ae1f281f05b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class='mobile-nav__link']//span[contains(text(),'Shoes')]</value>
+         <value>//ul[@class='mobile-nav__dropdown active__accordion']//li[1]//div[1]//a[1]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='shopify-section-header']/div/header/div/div/nav/div/ul/li[2]/a</value>
+         <value>//div[@id='shopify-section-header']/div/header/div/div/nav/div/ul/li[4]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,14 +21,14 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/collections/shoes_shop-all-shoes</value>
+      <value>/collections/jeans_shop-all-jeans</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>data-analytics-title</name>
       <type>Main</type>
-      <value>category_shoes</value>
+      <value>category_jeans</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>
-                    Shoes
+                    Jeans
                   </value>
    </webElementProperties>
    <webElementProperties>
@@ -58,54 +58,54 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@class='mobile-nav__link']//span[contains(text(),'Shoes')]</value>
+      <value>//ul[@class='mobile-nav__dropdown active__accordion']//li[1]//div[1]//a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='shopify-section-header']/div/header/div/div/nav/div/ul/li[2]/a</value>
+      <value>//div[@id='shopify-section-header']/div/header/div/div/nav/div/ul/li[4]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
-      <value>(//a[contains(text(),'Shoes')])[2]</value>
+      <value>(//a[contains(text(),'Jeans')])[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shop All'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shop All'])[3]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accessories'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Night Dresses'])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Shoes'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Refuge Jeans'])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Heels'])[1]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Skinny Jeans'])[1]/preceding::a[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
-      <value>//a[contains(@href, '/collections/shoes_shop-all-shoes')]</value>
+      <value>//a[contains(@href, '/collections/jeans_shop-all-jeans')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//li[2]/a</value>
+      <value>//li[4]/a</value>
    </webElementXpaths>
 </WebElementEntity>

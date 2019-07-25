@@ -1,96 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Hero banner - 1 st</name>
+   <name>Contact us</name>
    <tag></tag>
-   <elementGuidId>90ab1e95-4600-4d43-8ad3-5084eea769d5</elementGuidId>
+   <elementGuidId>c091c1bd-b56d-4b18-9faf-1cd1db7d1953</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//div[@id='grid__element--1558989798718']//img[@class='grid__image medium-up--hide']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[@id='grid__element--1558989798718']/a/div/img</value>
+         <value>//div[@id='shopify-section-footer']/div/div/div/div/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>img</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>grid__image  small--hide</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>src</name>
-      <type>Main</type>
-      <value>//cdn.shopify.com/s/files/1/0074/5124/6676/files/MAY13_HP-UpTo50-EN_DESK_1400x.jpg?v=1558989941</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>alt</name>
-      <type>Main</type>
-      <value>Charlotte Russe | We're Back! 50% Off Sitewide - Shop Now</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/pages/store-locator</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@id='grid__element--1558989798718']//img[@class='grid__image medium-up--hide']</value>
+      <value>id(&quot;shopify-section-footer&quot;)/div[@class=&quot;site-footer__locator&quot;]/div[@class=&quot;locator wrapper&quot;]/div[@class=&quot;grid grid--no-margin locator__container&quot;]/div[@class=&quot;grid__item one-third medium--one-whole small--one-whole locator-container__block block1&quot;]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='grid__element--1558989798718']/a/div/img</value>
+      <value>//div[@id='shopify-section-footer']/div/div/div/div/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shop All'])[14]/following::img[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shop All'])[14]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Beauty'])[2]/following::img[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Beauty'])[2]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[1]/preceding::img[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Store Locator'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::img[10]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact Us'])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:img</name>
-      <value>//img[@alt=&quot;Charlotte Russe | We're Back! 50% Off Sitewide - Shop Now&quot;]</value>
+      <name>xpath:href</name>
+      <value>(//a[contains(@href, '/pages/store-locator')])[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div/img</value>
+      <value>//div/div/div/div/a</value>
    </webElementXpaths>
 </WebElementEntity>

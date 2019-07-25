@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[contains(text(),'Scarves')][count(. | //a[@href = '/collections/accessories_scarves']) = count(//a[@href = '/collections/accessories_scarves'])]</value>
+         <value>//span[contains(text(),'Scarves')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -21,10 +21,10 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Scarves')]</value>
+      <value>//span[contains(text(),'Scarves')]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

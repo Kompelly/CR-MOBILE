@@ -6,12 +6,12 @@
    <elementGuidId>80898b63-4c66-4048-a8b8-f78125b63230</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//main[@id='MainContent']/div/div/div[2]/div[2]/div[3]/form/div[2]/div[2]/label/div</value>
+         <key>BASIC</key>
+         <value>//label[@class='product__radio radio-color swatch-heather-grey color active']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//div[@class='product__radio-size-text']</value>
+         <key>XPATH</key>
+         <value>//main[@id='MainContent']/div/div/div[2]/div[2]/div[3]/form/div[2]/div[2]/label/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>label</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@class='product__radio-size-text']</value>
+      <value>//label[@class='product__radio radio-color swatch-heather-grey color active']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

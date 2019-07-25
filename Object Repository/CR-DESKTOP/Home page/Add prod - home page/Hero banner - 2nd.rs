@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@id='slider__slide--1558545549062']//img[contains(@class,'slider__image small--hide')]</value>
+         <value>//div[@id='slider__slide--1558545669104']//img[@class='slider__image medium-up--hide']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@id='slider__slide--1558545549062']//img[contains(@class,'slider__image small--hide')]</value>
+      <value>//div[@id='slider__slide--1558545669104']//img[@class='slider__image medium-up--hide']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

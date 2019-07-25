@@ -3,6 +3,9 @@
    <description></description>
    <name>Decrease quantity - cart flyout</name>
    <tag></tag>
-   <comment></comment>
+   <comment>a=&quot; + a
+a1=&quot; + a1
+b=&quot; + b
+b1=&quot; + b1</comment>
    <testCaseGuid>ae892e59-9e77-49de-8403-6a3717a8bbe0</testCaseGuid>
 </TestCaseEntity>
