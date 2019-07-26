@@ -6,12 +6,12 @@
    <elementGuidId>0b680bb7-0a90-4e7b-b60d-97fa05c9f99b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='shopify-section-footer']/div[2]/div/nav/ul/li[3]/a</value>
+         <key>BASIC</key>
+         <value>//ul[@class='col-menu__list-menu active__accordion']//a[@class='menu_item_link'][contains(text(),'Shipping Info')][count(. | //a[@href = '/pages/shipping-methods']) = count(//a[@href = '/pages/shipping-methods'])]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//nav[@class='grid__item one-quarter menu__col medium-down--hide']//a[@class='menu_item_link'][contains(text(),'Shipping Info')][count(. | //a[@href = '/pages/shipping-methods']) = count(//a[@href = '/pages/shipping-methods'])]</value>
+         <key>XPATH</key>
+         <value>//div[@id='shopify-section-footer']/div[2]/div/nav/ul/li[3]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -56,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//nav[@class='grid__item one-quarter menu__col medium-down--hide']//a[@class='menu_item_link'][contains(text(),'Shipping Info')]</value>
+      <value>//ul[@class='col-menu__list-menu active__accordion']//a[@class='menu_item_link'][contains(text(),'Shipping Info')]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

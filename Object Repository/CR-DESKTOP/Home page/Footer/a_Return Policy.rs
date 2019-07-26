@@ -6,12 +6,12 @@
    <elementGuidId>049f78c7-1b0c-4f98-a824-03b352df756b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='shopify-section-footer']/div[2]/div/nav/ul/li[4]/a</value>
+         <key>BASIC</key>
+         <value>//ul[@class='col-menu__list-menu active__accordion']//a[@class='menu_item_link'][contains(text(),'Return Policy')][count(. | //a[@href = '/pages/return-policy']) = count(//a[@href = '/pages/return-policy'])]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//nav[@class='grid__item one-quarter menu__col medium-down--hide']//a[@class='menu_item_link'][contains(text(),'Return Policy')][count(. | //a[@href = '/pages/return-policy']) = count(//a[@href = '/pages/return-policy'])]</value>
+         <key>XPATH</key>
+         <value>//div[@id='shopify-section-footer']/div[2]/div/nav/ul/li[4]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -56,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//nav[@class='grid__item one-quarter menu__col medium-down--hide']//a[@class='menu_item_link'][contains(text(),'Return Policy')]</value>
+      <value>//ul[@class='col-menu__list-menu active__accordion']//a[@class='menu_item_link'][contains(text(),'Return Policy')]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

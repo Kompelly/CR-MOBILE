@@ -6,12 +6,12 @@
    <elementGuidId>5ae1d7b3-5931-444b-8800-d359c9da3385</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='shopify-section-footer']/div[2]/div/nav[3]/ul/li[3]/a</value>
+         <key>BASIC</key>
+         <value>//ul[@class='col-menu__list-menu active__accordion']//a[@class='menu_item_link'][contains(text(),'Find a Store')][count(. | //a[@href = '/pages/find-a-store']) = count(//a[@href = '/pages/find-a-store'])]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//nav[@class='grid__item one-quarter menu__col medium-down--hide']//a[@class='menu_item_link'][contains(text(),'Find a Store')][count(. | //a[@href = '/pages/find-a-store']) = count(//a[@href = '/pages/find-a-store'])]</value>
+         <key>XPATH</key>
+         <value>//div[@id='shopify-section-footer']/div[2]/div/nav[3]/ul/li[3]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -56,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//nav[@class='grid__item one-quarter menu__col medium-down--hide']//a[@class='menu_item_link'][contains(text(),'Find a Store')]</value>
+      <value>//ul[@class='col-menu__list-menu active__accordion']//a[@class='menu_item_link'][contains(text(),'Find a Store')]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

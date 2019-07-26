@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Social Media Policy</name>
+   <name>Quick links dropdown</name>
    <tag></tag>
-   <elementGuidId>c1c11a38-9fac-471e-8f70-1b296275f208</elementGuidId>
+   <elementGuidId>d1b802aa-4820-4526-9cfb-04ec31b68fe8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//ul[@class='col-menu__list-menu active__accordion']//a[@class='menu_item_link'][contains(text(),'Social Media Policy')][count(. | //a[@href = '/pages/social-media-policy']) = count(//a[@href = '/pages/social-media-policy'])]</value>
+         <value>//div[@class='site-footer__menu site-footer__menu--mobile']//nav[3]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='shopify-section-footer']/div[2]/div/nav[2]/ul/li[5]/a</value>
+         <value>//input[@id='k_id_email']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,89 +21,90 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>/pages/social-media-policy</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>Social Media Policy</value>
+      <value>nav</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>menu_item_link</value>
+      <value>newsletter__box</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>type</name>
       <type>Main</type>
-      <value>Social Media Policy</value>
+      <value>email</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>email</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>k_id_email</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Email Address</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//ul[@class='col-menu__list-menu active__accordion']//a[@class='menu_item_link'][contains(text(),'Social Media Policy')]</value>
+      <value>//div[@class='site-footer__menu site-footer__menu--mobile']//nav[3]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>//input[@id='k_id_email']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='shopify-section-footer']/div[2]/div/nav[2]/ul/li[5]/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <value>//a[contains(text(),'Social Media Policy')]</value>
+      <value>//form[@id='email_signup']/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacy Policy'])[4]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Want to join the CR Squad?'])[1]/following::input[11]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terms + Conditions'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Find a Store'])[1]/following::input[11]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quicklinks'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign Up'])[1]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='FAQs'])[1]/preceding::a[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <value>(//a[contains(@href, '/pages/social-media-policy')])[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacy Policy'])[2]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//nav[2]/ul/li[5]/a</value>
+      <value>//li[2]/form/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

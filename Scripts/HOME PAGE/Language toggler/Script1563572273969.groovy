@@ -17,11 +17,19 @@ WebUI.callTestCase(findTestCase('CALL-URL'), [:], FailureHandling.STOP_ON_FAILUR
 
 WebUI.delay(2)
 
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Burger menu'))
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('CR-DESKTOP/Home page/Spanish'))
 
 WebUI.delay(2)
 
 WebUI.takeScreenshot()
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Burger menu'))
 
 not_run: WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";', 
     [])

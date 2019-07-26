@@ -6,12 +6,12 @@
    <elementGuidId>0fcd3ade-eac5-4d69-9352-4723a4cc0858</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='shopify-section-footer']/div[2]/div/nav[2]/ul/li[4]/a</value>
+         <key>BASIC</key>
+         <value>//ul[@class='col-menu__list-menu active__accordion']//a[@class='menu_item_link'][contains(text(),'Privacy Policy')][count(. | //a[@href = '/pages/privacy-policy']) = count(//a[@href = '/pages/privacy-policy'])]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//nav[@class='grid__item one-quarter menu__col medium-down--hide']//a[@class='menu_item_link'][contains(text(),'Privacy Policy')][count(. | //a[@href = '/pages/privacy-policy']) = count(//a[@href = '/pages/privacy-policy'])]</value>
+         <key>XPATH</key>
+         <value>//div[@id='shopify-section-footer']/div[2]/div/nav[2]/ul/li[4]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -56,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//nav[@class='grid__item one-quarter menu__col medium-down--hide']//a[@class='menu_item_link'][contains(text(),'Privacy Policy')]</value>
+      <value>//ul[@class='col-menu__list-menu active__accordion']//a[@class='menu_item_link'][contains(text(),'Privacy Policy')]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

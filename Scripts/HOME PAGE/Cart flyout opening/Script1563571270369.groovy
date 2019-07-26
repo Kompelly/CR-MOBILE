@@ -17,7 +17,7 @@ WebUI.callTestCase(findTestCase('CALL - URL'), [:], FailureHandling.STOP_ON_FAIL
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('CR-DESKTOP/Home page/cart icon open'))
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Add prod - home page/cart icon open'))
 
 boolean flag = WebUI.verifyTextPresent('Your bag', false)
 

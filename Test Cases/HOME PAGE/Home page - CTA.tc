@@ -3,6 +3,7 @@
    <description></description>
    <name>Home page - CTA</name>
    <tag></tag>
-   <comment></comment>
+   <comment>a=&quot; + a
+k=&quot; + k</comment>
    <testCaseGuid>6fff65ac-4fa0-4f36-9d3a-12ac9d681b0b</testCaseGuid>
 </TestCaseEntity>

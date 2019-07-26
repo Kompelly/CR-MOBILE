@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class='header__utilities']//a[@class='languages__option']</value>
+         <value>//li[@class='top-nav__list-item top-nav__list-item--flyout top-nav__list-item--language']//a[@class='languages__option']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -21,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@class='header__utilities']//a[@class='languages__option']</value>
+      <value>//li[@class='top-nav__list-item top-nav__list-item--flyout top-nav__list-item--language']//a[@class='languages__option']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

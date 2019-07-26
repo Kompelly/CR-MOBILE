@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class='header__utilities']//span[@class='languages__label'][contains(text(),'Spanish')]</value>
+         <value>//li[@class='top-nav__list-item top-nav__list-item--flyout top-nav__list-item--language']//span[@class='languages__label'][contains(text(),'Spanish')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@class='header__utilities']//span[@class='languages__label'][contains(text(),'Spanish')]</value>
+      <value>//li[@class='top-nav__list-item top-nav__list-item--flyout top-nav__list-item--language']//span[@class='languages__label'][contains(text(),'Spanish')]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -6,12 +6,12 @@
    <elementGuidId>2dd20a41-274f-4638-b846-fcf3d0c08518</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='shopify-section-footer']/div[2]/div/nav[3]/ul/li[2]/a</value>
+         <key>BASIC</key>
+         <value>//ul[@class='col-menu__list-menu active__accordion']//a[@class='menu_item_link'][contains(text(),'Size Chart')][count(. | //a[@href = '/pages/size-guide']) = count(//a[@href = '/pages/size-guide'])]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//nav[@class='grid__item one-quarter menu__col medium-down--hide']//a[@class='menu_item_link'][contains(text(),'Size Chart')][count(. | //a[@href = '/pages/size-guide']) = count(//a[@href = '/pages/size-guide'])]</value>
+         <key>XPATH</key>
+         <value>//div[@id='shopify-section-footer']/div[2]/div/nav[3]/ul/li[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -56,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//nav[@class='grid__item one-quarter menu__col medium-down--hide']//a[@class='menu_item_link'][contains(text(),'Size Chart')]</value>
+      <value>//ul[@class='col-menu__list-menu active__accordion']//a[@class='menu_item_link'][contains(text(),'Size Chart')]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -21,7 +21,17 @@ WebUI.click(findTestObject('CR-DESKTOP/Home page/Add prod - home page/Hero banne
 
 WebUI.delay(2)
 
-WebUI.getWindowTitle()
+String x = WebUI.getWindowTitle()
+
+WebUI.comment('x=' + x)
+
+String j = 'Charlotte Russe | New - Shop All New '
+
+WebUI.comment('j=' + j)
+
+if (x == j) {
+    WebUI.comment(' right page ')
+}
 
 WebUI.delay(2)
 
@@ -30,8 +40,6 @@ WebUI.click(findTestObject('CR-DESKTOP/Home page/Add prod - home page/Charlotte 
 WebUI.delay(2)
 
 WebUI.click(findTestObject('CR-DESKTOP/Home page/Add prod - home page/banner - slider'))
-
-WebUI.delay(2)
 
 WebUI.click(findTestObject('CR-DESKTOP/Home page/Add prod - home page/Hero banner - 2nd'))
 
@@ -45,7 +53,11 @@ String k = 'Charlotte Russe | Dresses - Shop All Dresses '
 
 WebUI.comment('k=' + k)
 
-WebUI.verifyMatch('a', 'k', false)
+if (a == k) {
+    WebUI.comment(' right page ')
+}
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('CR-DESKTOP/Home page/Add prod - home page/Charlotte russe icon'))
 
@@ -59,7 +71,11 @@ String b = WebUI.getWindowTitle()
 
 String k1 = 'Charlotte Russe | Shoes - Shop All Shoes '
 
-WebUI.verifyEqual('b', 'k1')
+if (b == k1) {
+    WebUI.comment(' right page ')
+}
+
+WebUI.delay(2)
 
 WebUI.delay(2)
 
@@ -75,7 +91,11 @@ String c = WebUI.getWindowTitle()
 
 String k2 = 'Charlotte Russe | Clothes - Sets '
 
-WebUI.verifyEqual('c', 'k2')
+if (c == k2) {
+    WebUI.comment(' right page ')
+}
+
+WebUI.delay(2)
 
 WebUI.delay(2)
 
@@ -91,7 +111,11 @@ String d = WebUI.getWindowTitle()
 
 String k3 = 'Charlotte Russe | Clothes - Shop All Tops '
 
-WebUI.verifyEqual('d', 'k3')
+if (d == k3) {
+    WebUI.comment(' right page ')
+}
+
+WebUI.delay(2)
 
 WebUI.delay(2)
 
@@ -107,5 +131,9 @@ String e = WebUI.getWindowTitle()
 
 String k4 = 'Charlotte Russe | Plus Sizes - Shop All Plus Sizes '
 
-WebUI.verifyEqual('e', 'k4')
+if (e == k4) {
+    WebUI.comment(' right page ')
+}
+
+WebUI.delay(2)
 

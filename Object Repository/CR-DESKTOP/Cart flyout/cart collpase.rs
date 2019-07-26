@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class='cart__backdrop js-cart-close']</value>
+         <value>//div[contains(@class,'close-bag__container js-cart-close')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -35,7 +35,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@class='cart__backdrop js-cart-close']</value>
+      <value>//div[contains(@class,'close-bag__container js-cart-close')]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>body.template-index.cart__empty.cart__open:nth-child(2) > div.cart__backdrop.js-cart-close:nth-child(5)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

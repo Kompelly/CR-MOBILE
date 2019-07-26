@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@id='grid__element--1558546098064']//img[contains(@class,'small--hide')]</value>
+         <value>//div[@id='grid__element--1558546098064']//img[@class='grid__image medium-up--hide']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@id='grid__element--1558546098064']//img[contains(@class,'small--hide')]</value>
+      <value>//div[@id='grid__element--1558546098064']//img[@class='grid__image medium-up--hide']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

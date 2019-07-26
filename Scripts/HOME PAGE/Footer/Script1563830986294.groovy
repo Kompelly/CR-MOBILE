@@ -17,7 +17,15 @@ WebUI.callTestCase(findTestCase('CALL-URL'), [:], FailureHandling.STOP_ON_FAILUR
 
 WebUI.delay(2)
 
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/Customer service dropdown'))
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/a_Contact Us'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/Customer service dropdown'))
 
 WebUI.delay(2)
 
@@ -25,7 +33,15 @@ WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/a_Track Order'))
 
 WebUI.delay(2)
 
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/Customer service dropdown'))
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/a_Shipping Info'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/Customer service dropdown'))
 
 WebUI.delay(2)
 
@@ -33,7 +49,15 @@ WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/a_Return Policy'))
 
 WebUI.delay(2)
 
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/Company dropdown'))
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/a_About Us'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/Company dropdown'))
 
 WebUI.delay(2)
 
@@ -41,7 +65,15 @@ WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/a_Careers'))
 
 WebUI.delay(2)
 
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/Company dropdown'))
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/a_Terms  Conditions'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/Company dropdown'))
 
 WebUI.delay(2)
 
@@ -49,7 +81,15 @@ WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/a_Privacy Policy'))
 
 WebUI.delay(2)
 
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/Company dropdown'))
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/a_Social Media Policy'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/Quick links dropdown'))
 
 WebUI.delay(2)
 
@@ -57,7 +97,15 @@ WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/a_FAQs'))
 
 WebUI.delay(2)
 
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/Quick links dropdown'))
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/a_Size Chart'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Footer/Quick links dropdown'))
 
 WebUI.delay(2)
 
