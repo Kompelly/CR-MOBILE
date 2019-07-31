@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//li[@id='slick-slide21']</value>
+         <value>/html[1]/body[1]/div[3]/div[3]/main[1]/div[3]/section[1]/div[1]/div[6]/div[1]/div[1]/div[1]/ul[1]/ul[1]/li[1]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -35,7 +35,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//li[@id='slick-slide21']</value>
+      <value>/html[1]/body[1]/div[3]/div[3]/main[1]/div[3]/section[1]/div[1]/div[6]/div[1]/div[1]/div[1]/ul[1]/ul[1]/li[1]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>body.template-index.cart__empty:nth-child(2) div.meganav:nth-child(4) div.meganav-page-content:nth-child(4) div.shopify-section:nth-child(3) div.grid div.grid__item.grid__element.grid__element--html.one-whole.medium--one-whole.large-up--one-whole:nth-child(6) div.grid__content div.nosto_element:nth-child(2) div.wrapper.wrapper--section ul.output.featured-collection-container.nosto-recommendations.grid.slick-initialized.slick-slider > ul.slick-dots</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

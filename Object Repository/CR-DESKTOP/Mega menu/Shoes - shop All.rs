@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html[1]/body[1]/div[3]/div[2]/div[1]/header[1]/div[1]/div[1]/nav[1]/div[1]/ul[1]/li[2]/div[1]/ul[1]/li[9]/a[1]</value>
+         <value>//ul[@class='mobile-nav__dropdown active__accordion']//span[@class='mobile-nav__sublist-link-text'][contains(text(),'Shop All')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[3]/div[2]/div[1]/header[1]/div[1]/div[1]/nav[1]/div[1]/ul[1]/li[2]/div[1]/ul[1]/li[9]/a[1]</value>
+      <value>//ul[@class='mobile-nav__dropdown active__accordion']//span[@class='mobile-nav__sublist-link-text'][contains(text(),'Shop All')]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

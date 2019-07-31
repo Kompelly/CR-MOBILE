@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html[1]/body[1]/div[3]/div[2]/div[1]/header[1]/div[1]/div[1]/nav[1]/ul[1]/li[1]/a[1]</value>
+         <value>//li[@class='top-nav__icon-logo']//img[@class='header-logo']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[3]/div[2]/div[1]/header[1]/div[1]/div[1]/nav[1]/ul[1]/li[1]/a[1]</value>
+      <value>//li[@class='top-nav__icon-logo']//img[@class='header-logo']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

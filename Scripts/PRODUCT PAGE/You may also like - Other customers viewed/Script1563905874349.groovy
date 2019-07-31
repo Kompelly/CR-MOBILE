@@ -17,7 +17,11 @@ WebUI.callTestCase(findTestCase('CALL-URL'), [:], FailureHandling.STOP_ON_FAILUR
 
 WebUI.delay(2)
 
-WebUI.mouseOver(findTestObject('CR-DESKTOP/Mega menu/SHOES'))
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Burger menu'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('CR-DESKTOP/Mega menu/SHOES'))
 
 WebUI.delay(2)
 
@@ -32,31 +36,31 @@ WebUI.delay(2)
 WebUI.scrollToElement(findTestObject('CR-DESKTOP/product page/You may also like - Other customers viewed/you mayy also like'), 
     0)
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
-WebUI.click(findTestObject('CR-DESKTOP/product page/You may also like - Other customers viewed/Next arrow'))
+not_run: WebUI.click(findTestObject('CR-DESKTOP/product page/You may also like - Other customers viewed/Next arrow'))
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
-WebUI.click(findTestObject('CR-DESKTOP/product page/You may also like - Other customers viewed/Next arrow'))
+not_run: WebUI.click(findTestObject('CR-DESKTOP/product page/You may also like - Other customers viewed/Next arrow'))
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
-WebUI.click(findTestObject('CR-DESKTOP/product page/You may also like - Other customers viewed/previous arrow'))
+not_run: WebUI.click(findTestObject('CR-DESKTOP/product page/You may also like - Other customers viewed/previous arrow'))
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
-WebUI.click(findTestObject('CR-DESKTOP/product page/You may also like - Other customers viewed/Next arrow - other'))
+not_run: WebUI.click(findTestObject('CR-DESKTOP/product page/You may also like - Other customers viewed/Next arrow - other'))
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
-WebUI.click(findTestObject('CR-DESKTOP/product page/You may also like - Other customers viewed/Next arrow - other'))
+not_run: WebUI.click(findTestObject('CR-DESKTOP/product page/You may also like - Other customers viewed/Next arrow - other'))
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
-WebUI.click(findTestObject('CR-DESKTOP/product page/You may also like - Other customers viewed/previous arrow - other'))
+not_run: WebUI.click(findTestObject('CR-DESKTOP/product page/You may also like - Other customers viewed/previous arrow - other'))
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
 WebUI.click(findTestObject('CR-DESKTOP/product page/You may also like - Other customers viewed/scroll down'))
 

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class='header__utilities']//li[1]//a[1]</value>
+         <value>//ul[@class='nav-redirect']//li[2]//a[1]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@class='header__utilities']//li[1]//a[1]</value>
+      <value>//ul[@class='nav-redirect']//li[2]//a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

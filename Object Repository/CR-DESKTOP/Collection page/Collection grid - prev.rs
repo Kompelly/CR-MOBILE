@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>By Bit</name>
+   <name>Collection grid - prev</name>
    <tag></tag>
-   <elementGuidId>2d4fd20f-3fc0-46f7-a806-9ae1f281f05b</elementGuidId>
+   <elementGuidId>b399673f-c357-48b4-b535-2464c9bdaa1b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//ul[@class='mobile-nav__dropdown active__accordion']//li[1]//div[1]//a[1]</value>
+         <value>//div[@class='pagination-container js-filter-paginate']//a[@class='pagination-button pagination-button-prev']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='shopify-section-header']/div/header/div/div/nav/div/ul/li[4]/a</value>
+         <value>//li[@id='product-2']/div/div[2]/div/a/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,86 +26,71 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>/collections/jeans_shop-all-jeans</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>main-nav main-nav__link  nav-menu</value>
+      <value>featured_collection__image</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-analytics-title</name>
+      <name>alt</name>
       <type>Main</type>
-      <value>category_jeans</value>
+      <value>Plaid Knit Tassel Scarf</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>src</name>
       <type>Main</type>
-      <value>
-                    Jeans
-                  </value>
+      <value>//cdn2.shopify.com/s/files/1/0074/5124/6676/products/097758199020-04-0_270x400_crop_center.jpg?v=1558020443</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//ul[@class='mobile-nav__dropdown active__accordion']//li[1]//div[1]//a[1]</value>
+      <value>//div[@class='pagination-container js-filter-paginate']//a[@class='pagination-button pagination-button-prev']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='shopify-section-header']/div/header/div/div/nav/div/ul/li[4]/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <value>(//a[contains(text(),'Jeans')])[2]</value>
+      <value>//li[@id='product-2']/div/div[2]/div/a/img</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shop All'])[3]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NOW $12.50'])[1]/following::img[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Night Dresses'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$24.99'])[1]/following::img[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Refuge Jeans'])[1]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quick Add'])[2]/preceding::img[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Skinny Jeans'])[1]/preceding::a[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[2]/preceding::img[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <value>//a[contains(@href, '/collections/jeans_shop-all-jeans')]</value>
+      <name>xpath:img</name>
+      <value>//img[@alt='Plaid Knit Tassel Scarf']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//li[4]/a</value>
+      <value>//li[2]/div/div[2]/div/a/img</value>
    </webElementXpaths>
 </WebElementEntity>

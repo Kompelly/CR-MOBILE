@@ -73,7 +73,7 @@ WebUI.click(findTestObject('CR-DESKTOP/Mega menu/a_Jeans'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('CR-DESKTOP/Mega menu/By Bit'))
+WebUI.click(findTestObject('CR-DESKTOP/Mega menu/By fit'))
 
 WebUI.delay(2)
 

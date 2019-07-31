@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//li[contains(@class,'main-nav__list-item dropdown_column clothes')]//a[contains(@class,'subsublink__title')][contains(text(),'Jumpsuits + Rompers')]</value>
+         <value>//span[contains(text(),'Jumpsuits + Rompers')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -59,7 +59,7 @@ Boyfriend Jeans
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//li[contains(@class,'main-nav__list-item dropdown_column clothes')]//a[contains(@class,'subsublink__title')][contains(text(),'Jumpsuits + Rompers')]</value>
+      <value>//span[contains(text(),'Jumpsuits + Rompers')]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

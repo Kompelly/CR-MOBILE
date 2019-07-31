@@ -17,7 +17,11 @@ WebUI.callTestCase(findTestCase('CALL-URL'), [:], FailureHandling.STOP_ON_FAILUR
 
 WebUI.delay(2)
 
-WebUI.mouseOver(findTestObject('CR-DESKTOP/Mega menu/SHOES'))
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Burger menu'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('CR-DESKTOP/Mega menu/SHOES'))
 
 WebUI.delay(2)
 
@@ -29,15 +33,35 @@ WebUI.click(findTestObject('CR-DESKTOP/Collection page/product 3'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('CR-DESKTOP/product page/Recently viewed'))
+WebUI.scrollToElement(findTestObject('CR-DESKTOP/product page/Recently viewed'), 0)
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
+
+not_run: WebUI.click(findTestObject('CR-DESKTOP/product page/REcently view/Second slider'))
+
+not_run: WebUI.delay(2)
+
+not_run: WebUI.click(findTestObject('CR-DESKTOP/product page/REcently view/Third slider'))
+
+not_run: WebUI.delay(2)
+
+not_run: WebUI.click(findTestObject('CR-DESKTOP/product page/REcently view/Fourth slider'))
+
+not_run: WebUI.delay(2)
+
+not_run: WebUI.click(findTestObject('CR-DESKTOP/product page/REcently view/First slider'))
+
+not_run: WebUI.delay(2)
 
 WebUI.click(findTestObject('CR-DESKTOP/product page/Product image - recently viewed'))
 
 WebUI.delay(2)
 
-WebUI.mouseOver(findTestObject('CR-DESKTOP/Mega menu/SHOES'))
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Burger menu'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('CR-DESKTOP/Mega menu/SHOES'))
 
 WebUI.delay(2)
 

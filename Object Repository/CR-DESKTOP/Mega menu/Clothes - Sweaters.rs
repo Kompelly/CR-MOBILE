@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[contains(text(),'Sweaters')]</value>
+         <value>//ul[@class='mobile-nav__dropdown active__accordion']//span[@class='mobile-nav__sublist-link-text'][contains(text(),'Sweaters')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -59,7 +59,7 @@ Boyfriend Jeans
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Sweaters')]</value>
+      <value>//ul[@class='mobile-nav__dropdown active__accordion']//span[@class='mobile-nav__sublist-link-text'][contains(text(),'Sweaters')]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

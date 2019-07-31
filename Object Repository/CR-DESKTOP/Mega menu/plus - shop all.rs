@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//li[contains(@class,'main-nav__list-item dropdown_column plus')]//a[contains(@class,'subsublink__title')][contains(text(),'Shop All')]</value>
+         <value>//ul[@class='mobile-nav__dropdown active__accordion']//li[9]//div[1]//a[1]//span[1]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -59,7 +59,7 @@ Boyfriend Jeans
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//li[contains(@class,'main-nav__list-item dropdown_column plus')]//a[contains(@class,'subsublink__title')][contains(text(),'Shop All')]</value>
+      <value>//ul[@class='mobile-nav__dropdown active__accordion']//li[9]//div[1]//a[1]//span[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

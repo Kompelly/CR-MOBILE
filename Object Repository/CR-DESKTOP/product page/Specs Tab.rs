@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//li[@class='resp-tab-item resp-element']</value>
+         <value>//h2[contains(text(),'Specs')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -21,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>li</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//li[@class='resp-tab-item resp-element']</value>
+      <value>//h2[contains(text(),'Specs')]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

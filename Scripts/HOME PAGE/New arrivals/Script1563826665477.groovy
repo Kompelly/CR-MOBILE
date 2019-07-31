@@ -21,16 +21,6 @@ WebUI.scrollToElement(findTestObject('CR-DESKTOP/Home page/New arrivals/New arri
 
 WebUI.delay(2)
 
-for (i = 1; i <= 3; i++) {
-    WebUI.click(findTestObject('CR-DESKTOP/Home page/New arrivals/Next button'))
-}
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('CR-DESKTOP/Home page/New arrivals/Previous button'))
-
-WebUI.delay(2)
-
 WebUI.click(findTestObject('CR-DESKTOP/Home page/New arrivals/product image'))
 
 WebUI.delay(2)
@@ -40,6 +30,10 @@ WebUI.click(findTestObject('CR-DESKTOP/Home page/Add prod - home page/Charlotte 
 WebUI.delay(2)
 
 WebUI.scrollToElement(findTestObject('CR-DESKTOP/Home page/New arrivals/New arrivals'), 0)
+
+WebUI.delay(2)
+
+WebUI.scrollToElement(findTestObject('CR-DESKTOP/Home page/New arrivals/slider tablist'), 0)
 
 WebUI.delay(2)
 
@@ -55,5 +49,29 @@ WebUI.click(findTestObject('CR-DESKTOP/Home page/Recomended for you/Fourth slide
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('CR-DESKTOP/Home page/Recomended for you/First slider'))
+WebUI.click(findTestObject('CR-DESKTOP/Home page/New arrivals/First slider'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Recomended for you/slider - 5'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Recomended for you/slider - 6'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Recomended for you/slider - (7)'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Recomended for you/slider - (8)'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Recomended for you/slider - (9)'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Recomended for you/slider - 10'))
 

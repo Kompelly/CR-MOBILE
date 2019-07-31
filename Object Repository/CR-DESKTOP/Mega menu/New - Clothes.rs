@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//li[contains(@class,'main-nav__list-item dropdown_column new')]//a[contains(@class,'subsublink__title')][contains(text(),'Clothes')]</value>
+         <value>//span[@class='mobile-nav__sublist-link-text'][contains(text(),'Clothes')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//li[contains(@class,'main-nav__list-item dropdown_column new')]//a[contains(@class,'subsublink__title')][contains(text(),'Clothes')]</value>
+      <value>//span[@class='mobile-nav__sublist-link-text'][contains(text(),'Clothes')]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

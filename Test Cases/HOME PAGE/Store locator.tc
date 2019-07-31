@@ -3,6 +3,8 @@
    <description></description>
    <name>Store locator</name>
    <tag></tag>
-   <comment></comment>
+   <comment>a=&quot; + a
+b=&quot; + b
+c=&quot; + c</comment>
    <testCaseGuid>30d17832-df00-41a1-b3ac-a7ef441f1ad0</testCaseGuid>
 </TestCaseEntity>

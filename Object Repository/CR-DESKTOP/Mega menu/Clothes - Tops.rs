@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//li[contains(@class,'main-nav__list-item dropdown_column clothes')]//a[contains(@class,'subsublink__title')][contains(text(),'Tops')]</value>
+         <value>//ul[@class='mobile-nav__dropdown active__accordion']//span[@class='mobile-nav__sublist-link-text'][contains(text(),'Tops')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -21,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +59,7 @@ Boyfriend Jeans
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//li[contains(@class,'main-nav__list-item dropdown_column clothes')]//a[contains(@class,'subsublink__title')][contains(text(),'Tops')]</value>
+      <value>//ul[@class='mobile-nav__dropdown active__accordion']//span[@class='mobile-nav__sublist-link-text'][contains(text(),'Tops')]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

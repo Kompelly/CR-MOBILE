@@ -17,6 +17,10 @@ WebUI.callTestCase(findTestCase('CALL-URL'), [:], FailureHandling.STOP_ON_FAILUR
 
 WebUI.delay(2)
 
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Burger menu'))
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('CR-DESKTOP/Home page/Store Locator/store locator icon'))
 
 WebUI.delay(2)

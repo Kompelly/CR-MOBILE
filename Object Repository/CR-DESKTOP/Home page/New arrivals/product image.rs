@@ -7,11 +7,15 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html[1]/body[1]/div[3]/div[3]/main[1]/div[3]/section[1]/div[1]/div[6]/div[1]/div[1]/div[1]/ul[1]/div[1]/div[1]/li[10]/div[2]/div[1]/a[1]/img[1]</value>
+         <value>//div[@id='cr-frontpage-nosto-1']//li[@class='nosto-tile product-list__item grid__item large-up--one-third js-product-tile js-product slick-slide slick-current slick-active']//img[@class='featured_collection__image']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//body[@id='refuge-plus-size-high-rise-distressed-dark-wash-skinny-boyfriend-jean']/div[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,7 +39,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[3]/div[3]/main[1]/div[3]/section[1]/div[1]/div[6]/div[1]/div[1]/div[1]/ul[1]/div[1]/div[1]/li[10]/div[2]/div[1]/a[1]/img[1]</value>
+      <value>//div[@id='cr-frontpage-nosto-1']//li[@class='nosto-tile product-list__item grid__item large-up--one-third js-product-tile js-product slick-slide slick-current slick-active']//img[@class='featured_collection__image']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

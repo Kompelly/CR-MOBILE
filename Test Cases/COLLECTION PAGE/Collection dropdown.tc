@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Product - breadcrumb</name>
+   <name>Collection dropdown</name>
    <tag></tag>
    <comment> a= &quot; + a
  k= &quot; + k
@@ -9,5 +9,5 @@
  k1= &quot; + k1
  c= &quot; + c
  k3= &quot; + k3</comment>
-   <testCaseGuid>052fdb7f-7049-486b-bcce-3092b6c0433f</testCaseGuid>
+   <testCaseGuid>ec35c817-f224-4411-a686-a261bc050d11</testCaseGuid>
 </TestCaseEntity>

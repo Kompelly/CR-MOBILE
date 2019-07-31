@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[contains(@class,'nav-menu subsubsublink__title')][contains(text(),'Cropped Jeans')]</value>
+         <value>//a[@class='mobile-nav__sublist-link nav-menu'][contains(text(),'Cropped Jeans')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -59,7 +59,7 @@ Boyfriend Jeans
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[contains(@class,'nav-menu subsubsublink__title')][contains(text(),'Cropped Jeans')]</value>
+      <value>//a[@class='mobile-nav__sublist-link nav-menu'][contains(text(),'Cropped Jeans')]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

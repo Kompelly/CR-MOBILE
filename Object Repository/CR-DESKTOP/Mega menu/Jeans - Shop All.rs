@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[contains(@class,'nav-menu subsubsublink__title')][contains(text(),'Boyfriend Jeans')][count(. | //a[@href = '/collections/jeans-by-fit_boyfriend-jeans']) = count(//a[@href = '/collections/jeans-by-fit_boyfriend-jeans'])]</value>
+         <value>//ul[@class='mobile-nav__dropdown active__accordion']//span[@class='mobile-nav__sublist-link-text'][contains(text(),'Shop All')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -21,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <value>nav-menu subsubsublink__title</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -59,7 +59,7 @@ Boyfriend Jeans
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[contains(@class,'nav-menu subsubsublink__title')][contains(text(),'Boyfriend Jeans')]</value>
+      <value>//ul[@class='mobile-nav__dropdown active__accordion']//span[@class='mobile-nav__sublist-link-text'][contains(text(),'Shop All')]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

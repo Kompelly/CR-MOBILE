@@ -17,6 +17,10 @@ WebUI.callTestCase(findTestCase('CALL-URL'), [:], FailureHandling.STOP_ON_FAILUR
 
 WebUI.delay(2)
 
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Burger menu'))
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('CR-DESKTOP/Home page/Login/Account icon'))
 
 WebUI.delay(2)
@@ -37,7 +41,11 @@ WebUI.click(findTestObject('CR-DESKTOP/Home page/Add prod - home page/Charlotte 
 
 WebUI.delay(2)
 
-WebUI.mouseOver(findTestObject('CR-DESKTOP/Mega menu/SHOES'))
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Burger menu'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('CR-DESKTOP/Mega menu/SHOES'))
 
 WebUI.delay(2)
 
@@ -53,7 +61,11 @@ WebUI.click(findTestObject('CR-DESKTOP/product page/Add to wishlist'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('CR-DESKTOP/Home page/Add prod - home page/Charlotte russe icon'))
+WebUI.navigateToUrl('https://charlotterusse.com/')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Burger menu'))
 
 WebUI.delay(2)
 
@@ -67,7 +79,11 @@ WebUI.takeScreenshot()
 
 WebUI.delay(2)
 
-WebUI.mouseOver(findTestObject('CR-DESKTOP/Mega menu/SHOES'))
+WebUI.click(findTestObject('CR-DESKTOP/Home page/Burger menu'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('CR-DESKTOP/Mega menu/SHOES'))
 
 WebUI.delay(2)
 
@@ -86,6 +102,8 @@ WebUI.delay(2)
 WebUI.back()
 
 WebUI.click(findTestObject('CR-DESKTOP/product page/Easy returns - More info'))
+
+WebUI.back()
 
 WebUI.delay(2)
 

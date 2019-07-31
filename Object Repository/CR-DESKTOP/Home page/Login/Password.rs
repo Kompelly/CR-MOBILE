@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//input[@id='CustomerPassword']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'password' and @name = 'customer[password]' and @id = 'CustomerPassword' and @placeholder = 'Password']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

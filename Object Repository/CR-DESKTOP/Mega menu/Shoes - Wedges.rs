@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[contains(text(),'Wedges')]</value>
+         <value>//span[contains(text(),'Wedges')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Wedges')]</value>
+      <value>//span[contains(text(),'Wedges')]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

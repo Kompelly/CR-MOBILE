@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//li[@id='slick-slide22']</value>
+         <value>//li[@id='slick-slide22']//button[contains(text(),'3')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -21,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>li</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//li[@id='slick-slide22']</value>
+      <value>//li[@id='slick-slide22']//button[contains(text(),'3')]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

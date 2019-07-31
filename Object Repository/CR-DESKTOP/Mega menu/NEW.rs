@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[contains(@class,'nav-menu')][contains(text(),'New')]</value>
+         <value>//div[@class='mobile-nav__link']//span[contains(text(),'New')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -58,7 +58,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[contains(@class,'nav-menu')][contains(text(),'New')]</value>
+      <value>//div[@class='mobile-nav__link']//span[contains(text(),'New')]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
